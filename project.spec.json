@@ -1,0 +1,27 @@
+{
+  "slug": "gym-pr-board",
+  "title": "Gym PR Board",
+  "tagline": "Your personal records, in one place",
+  "description": "Your personal records, in one place.",
+  "category": "Fitness",
+  "accent": "#4f46e5",
+  "accent_soft": "#eef2ff",
+  "table": {
+    "name": "lifts",
+    "singular": "lift",
+    "plural": "lifts",
+    "fields": [
+      { "name": "exercise", "label": "Exercise", "type": "text", "required": true, "placeholder": "Back squat" },
+      { "name": "weight_kg", "label": "Weight (kg)", "type": "number", "required": true, "placeholder": "" },
+      { "name": "reps", "label": "Reps", "type": "int", "required": true, "placeholder": "" },
+      { "name": "set_type", "label": "Set type", "type": "text", "required": true, "placeholder": "Working" },
+      { "name": "lifted_on", "label": "Lifted on", "type": "date", "required": true, "placeholder": "" }
+    ]
+  },
+  "features": [
+    { "icon": "🏋️", "title": "Weight times reps", "body": "The honest measure of a lift." },
+    { "icon": "📈", "title": "Progress over time", "body": "Old records stay, new ones stack up." },
+    { "icon": "🎯", "title": "Working sets vs maxes", "body": "Keep test days separate from training days." }
+  ],
+  "seed": []
+}
